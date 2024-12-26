@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Julian\\source\\repos\\SEMiner\\SEMiner\\SEMiner.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Julian\\source\\repos\\SEMiner\\SEMiner\\SEMiner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Julian\\source\\repos\\SEMiner\\SEMiner\\SEMiner.csproj",
+        "projectName": "SEMiner",
+        "projectPath": "C:\\Users\\Julian\\source\\repos\\SEMiner\\SEMiner\\SEMiner.csproj",
+        "packagesPath": "C:\\Users\\Julian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Julian\\source\\repos\\SEMiner\\SEMiner\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Julian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Mal.Mdk2.ModAnalyzers": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Mal.Mdk2.References": {
+              "include": "Build",
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "SpaceEngineers.ScriptingReferences": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

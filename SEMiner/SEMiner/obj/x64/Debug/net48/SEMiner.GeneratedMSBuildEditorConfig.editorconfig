@@ -1,0 +1,7 @@
+is_global = true
+build_property.ProjectDir = C:\Users\Julian\source\repos\SEMiner\SEMiner\
+build_property.ProjectDir = C:\Users\Julian\source\repos\SEMiner\SEMiner\
+build_property.Mdk-IgnorePaths = **\*.debug.cs|obj\**\*
+build_property.RootNamespace = SEMiner
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
